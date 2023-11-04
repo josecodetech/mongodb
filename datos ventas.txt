@@ -1,282 +1,452 @@
-db.ventas.insertMany([
-    {
-        fecha: "2023-10-01",
-        producto: "Camiseta",
-        cantidad: 10,
-        precio_unitario: 15.99,
-        cliente: "Cliente 1"
-    },
-    {
-        fecha: "2023-10-02",
-        producto: "Pantalones",
-        cantidad: 5,
-        precio_unitario: 29.99,
-        cliente: "Cliente 2"
-    },
-    {
-        fecha: "2023-10-03",
-        producto: "Zapatos",
-        cantidad: 8,
-        precio_unitario: 49.99,
-        cliente: "Cliente 3"
-    },
-    {
-        fecha: "2023-10-04",
-        producto: "Gorra",
-        cantidad: 15,
-        precio_unitario: 9.99,
-        cliente: "Cliente 4"
-    },
-    {
-        fecha: "2023-10-05",
-        producto: "Bufanda",
-        cantidad: 7,
-        precio_unitario: 12.99,
-        cliente: "Cliente 5"
-    },
-    {
-        fecha: "2023-10-06",
-        producto: "Botas",
-        cantidad: 12,
-        precio_unitario: 59.99,
-        cliente: "Cliente 6"
-    },
-    {
-        fecha: "2023-10-07",
-        producto: "Jersey",
-        cantidad: 9,
-        precio_unitario: 24.99,
-        cliente: "Cliente 7"
-    },
-    {
-        fecha: "2023-10-08",
-        producto: "Vestido",
-        cantidad: 6,
-        precio_unitario: 39.99,
-        cliente: "Cliente 8"
-    },
-    {
-        fecha: "2023-10-09",
-        producto: "Calcetines",
-        cantidad: 20,
-        precio_unitario: 4.99,
-        cliente: "Cliente 9"
-    },
-    {
-        fecha: "2023-10-10",
-        producto: "Sombrero",
-        cantidad: 3,
-        precio_unitario: 17.99,
-        cliente: "Cliente 10"
-    },
-    {
-        fecha: "2023-10-11",
-        producto: "Chaqueta",
-        cantidad: 4,
-        precio_unitario: 49.99,
-        cliente: "Cliente 11"
-    },
-    {
-        fecha: "2023-10-12",
-        producto: "Shorts",
-        cantidad: 8,
-        precio_unitario: 14.99,
-        cliente: "Cliente 12"
-    },
-    {
-        fecha: "2023-10-13",
-        producto: "Zapatos Deportivos",
-        cantidad: 7,
-        precio_unitario: 29.99,
-        cliente: "Cliente 13"
-    },
-    {
-        fecha: "2023-10-14",
-        producto: "Blusa",
-        cantidad: 11,
-        precio_unitario: 19.99,
-        cliente: "Cliente 14"
-    },
-    {
-        fecha: "2023-10-15",
-        producto: "Mochila",
-        cantidad: 6,
-        precio_unitario: 29.99,
-        cliente: "Cliente 15"
-    },
-    {
-        fecha: "2023-10-16",
-        producto: "Bufanda",
-        cantidad: 7,
-        precio_unitario: 12.99,
-        cliente: "Cliente 16"
-    },
-    {
-        fecha: "2023-10-17",
-        producto: "Botas",
-        cantidad: 12,
-        precio_unitario: 59.99,
-        cliente: "Cliente 17"
-    },
-    {
-        fecha: "2023-10-18",
-        producto: "Jersey",
-        cantidad: 9,
-        precio_unitario: 24.99,
-        cliente: "Cliente 18"
-    },
-    {
-        fecha: "2023-10-19",
-        producto: "Vestido",
-        cantidad: 6,
-        precio_unitario: 39.99,
-        cliente: "Cliente 19"
-    },
-    {
-        fecha: "2023-10-20",
-        producto: "Calcetines",
-        cantidad: 20,
-        precio_unitario: 4.99,
-        cliente: "Cliente 20"
-    },
-    {
-        fecha: "2023-10-21",
-        producto: "Sombrero",
-        cantidad: 3,
-        precio_unitario: 17.99,
-        cliente: "Cliente 21"
-    },
-    {
-        fecha: "2023-10-22",
-        producto: "Chaqueta",
-        cantidad: 4,
-        precio_unitario: 49.99,
-        cliente: "Cliente 22"
-    },
-    {
-        fecha: "2023-10-23",
-        producto: "Shorts",
-        cantidad: 8,
-        precio_unitario: 14.99,
-        cliente: "Cliente 23"
-    },
-    {
-        fecha: "2023-10-24",
-        producto: "Zapatos Deportivos",
-        cantidad: 7,
-        precio_unitario: 29.99,
-        cliente: "Cliente 24"
-    },
-    {
-        fecha: "2023-10-25",
-        producto: "Blusa",
-        cantidad: 11,
-        precio_unitario: 19.99,
-        cliente: "Cliente 25"
-    },
-    {
-        fecha: "2023-10-26",
-        producto: "Mochila",
-        cantidad: 6,
-        precio_unitario: 29.99,
-        cliente: "Cliente 26"
-    },
-    {
-        fecha: "2023-10-27",
-        producto: "Bufanda",
-        cantidad: 7,
-        precio_unitario: 12.99,
-        cliente: "Cliente 27"
-    },
-    {
-        fecha: "2023-10-28",
-        producto: "Botas",
-        cantidad: 12,
-        precio_unitario: 59.99,
-        cliente: "Cliente 28"
-    },
-    {
-        fecha: "2023-10-29",
-        producto: "Jersey",
-        cantidad: 9,
-        precio_unitario: 24.99,
-        cliente: "Cliente 29"
-    },
-    {
-        fecha: "2023-10-30",
-        producto: "Vestido",
-        cantidad: 6,
-        precio_unitario: 39.99,
-        cliente: "Cliente 30"
-    },
-    {
-        fecha: "2023-10-31",
-        producto: "Calcetines",
-        cantidad: 20,
-        precio_unitario: 4.99,
-        cliente: "Cliente 31"
-    },
-    {
-        fecha: "2023-11-01",
-        producto: "Sombrero",
-        cantidad: 3,
-        precio_unitario: 17.99,
-        cliente: "Cliente 32"
-    },
-    {
-        fecha: "2023-11-02",
-        producto: "Chaqueta",
-        cantidad: 4,
-        precio_unitario: 49.99,
-        cliente: "Cliente 33"
-    },
-    {
-        fecha: "2023-11-03",
-        producto: "Shorts",
-        cantidad: 8,
-        precio_unitario: 14.99,
-        cliente: "Cliente 34"
-    },
-    {
-        fecha: "2023-11-04",
-        producto: "Zapatos Deportivos",
-        cantidad: 7,
-        precio_unitario: 29.99,
-        cliente: "Cliente 35"
-    },
-    {
-        fecha: "2023-11-05",
-        producto: "Blusa",
-        cantidad: 11,
-        precio_unitario: 19.99,
-        cliente: "Cliente 36"
-    },
-    {
-        fecha: "2023-11-06",
-        producto: "Mochila",
-        cantidad: 6,
-        precio_unitario: 29.99,
-        cliente: "Cliente 37"
-    },
-    {
-        fecha: "2023-11-07",
-        producto: "Bufanda",
-        cantidad: 7,
-        precio_unitario: 12.99,
-        cliente: "Cliente 38"
-    },
-    {
-        fecha: "2023-11-08",
-        producto: "Botas",
-        cantidad: 12,
-        precio_unitario: 59.99,
-        cliente: "Cliente 39"
-    },
-    {
-        fecha: "2023-11-09",
-        producto: "Jersey",
-        cantidad: 9,
-        precio_unitario: 24.99,
-        cliente: "Cliente 40"
-    },
-]);
+[
+  {
+    "_id": "1",
+    "fecha": "2023-07-20",
+    "producto": "Teléfono móvil",
+    "cantidad": 10,
+    "precio": 200,
+    "cliente": "Juan Pérez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+  {
+    "_id": "2",
+    "fecha": "2023-07-21",
+    "producto": "Ordenador portátil",
+    "cantidad": 5,
+    "precio": 1000,
+    "cliente": "María López",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  {
+    "_id": "3",
+    "fecha": "2023-07-22",
+    "producto": "Televisión",
+    "cantidad": 2,
+    "precio": 500,
+    "cliente": "Pedro Gómez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "4",
+    "fecha": "2023-07-23",
+    "producto": "Lavadora",
+    "cantidad": 1,
+    "precio": 300,
+    "cliente": "Ana Rodríguez",
+    "ciudad": "Sevilla",
+    "pais": "España"
+  },
+  {
+    "_id": "5",
+    "fecha": "2023-07-24",
+    "producto": "Nevera",
+    "cantidad": 2,
+    "precio": 400,
+    "cliente": "Luis Sánchez",
+    "ciudad": "Bilbao",
+    "pais": "España"
+  },
+  {
+    "_id": "50",
+    "fecha": "2023-07-29",
+    "producto": "Coche",
+    "cantidad": 1,
+    "precio": 20000,
+    "cliente": "Eduardo Gómez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+ {
+    "_id": "51",
+    "fecha": "2023-07-30",
+    "producto": "Tablet",
+    "cantidad": 3,
+    "precio": 150,
+    "cliente": "Valentina Fernández",
+    "ciudad": "La Coruña",
+    "pais": "España"
+  },
+  {
+    "_id": "52",
+    "fecha": "2023-07-31",
+    "producto": "Cámara de fotos",
+    "cantidad": 1,
+    "precio": 500,
+    "cliente": "Ximena Martínez",
+    "ciudad": "Santiago de Compostela",
+    "pais": "España"
+  },
+  {
+    "_id": "53",
+    "fecha": "2023-08-01",
+    "producto": "Auriculares inalámbricos",
+    "cantidad": 2,
+    "precio": 100,
+    "cliente": "Yago Gómez",
+    "ciudad": "Vigo",
+    "pais": "España"
+  },
+  {
+    "_id": "54",
+    "fecha": "2023-08-02",
+    "producto": "Robot aspirador",
+    "cantidad": 1,
+    "precio": 300,
+    "cliente": "Zara Rodríguez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "55",
+    "fecha": "2023-08-03",
+    "producto": "Secadora",
+    "cantidad": 1,
+    "precio": 400,
+    "cliente": "Álex Sánchez",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  {
+    "_id": "56",
+    "fecha": "2023-08-04",
+    "producto": "Cocina",
+    "cantidad": 1,
+    "precio": 1000,
+    "cliente": "Brenda González",
+    "ciudad": "Zaragoza",
+    "pais": "España"
+  },
+  {
+    "_id": "57",
+    "fecha": "2023-08-05",
+    "producto": "Lavadora-secadora",
+    "cantidad": 2,
+    "precio": 600,
+    "cliente": "Carlos Pérez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "58",
+    "fecha": "2023-08-06",
+    "producto": "Aspiradora",
+    "cantidad": 1,
+    "precio": 200,
+    "cliente": "David García",
+    "ciudad": "Sevilla",
+    "pais": "España"
+  },
+  {
+    "_id": "59",
+    "fecha": "2023-08-07",
+    "producto": "Bicicleta",
+    "cantidad": 1,
+    "precio": 500,
+    "cliente": "Eduardo Gómez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+{
+    "_id": "61",
+    "fecha": "2023-08-09",
+    "producto": "Patinete eléctrico",
+    "cantidad": 1,
+    "precio": 300,
+    "cliente": "Juan Pérez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+  {
+    "_id": "62",
+    "fecha": "2023-08-10",
+    "producto": "Smartphone",
+    "cantidad": 2,
+    "precio": 1000,
+    "cliente": "María López",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  {
+    "_id": "63",
+    "fecha": "2023-08-11",
+    "producto": "Smartwatch",
+    "cantidad": 3,
+    "precio": 200,
+    "cliente": "Pedro Gómez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "64",
+    "fecha": "2023-08-12",
+    "producto": "Auriculares con cable",
+    "cantidad": 5,
+    "precio": 50,
+    "cliente": "Ana Rodríguez",
+    "ciudad": "Sevilla",
+    "pais": "España"
+  },
+  {
+    "_id": "65",
+    "fecha": "2023-08-13",
+    "producto": "Ratón inalámbrico",
+    "cantidad": 10,
+    "precio": 20,
+    "cliente": "Luis Sánchez",
+    "ciudad": "Bilbao",
+    "pais": "España"
+  },
+  {
+    "_id": "66",
+    "fecha": "2023-08-14",
+    "producto": "Teclado inalámbrico",
+    "cantidad": 10,
+    "precio": 30,
+    "cliente": "Valentina Fernández",
+    "ciudad": "La Coruña",
+    "pais": "España"
+  },
+  {
+    "_id": "67",
+    "fecha": "2023-08-15",
+    "producto": "Monitor de ordenador",
+    "cantidad": 5,
+    "precio": 200,
+    "cliente": "Ximena Martínez",
+    "ciudad": "Santiago de Compostela",
+    "pais": "España"
+  },
+  {
+    "_id": "68",
+    "fecha": "2023-08-16",
+    "producto": "Impresora",
+    "cantidad": 2,
+    "precio": 100,
+    "cliente": "Yago Gómez",
+    "ciudad": "Vigo",
+    "pais": "España"
+  },
+  {
+    "_id": "69",
+    "fecha": "2023-08-17",
+    "producto": "Disco duro externo",
+    "cantidad": 3,
+    "precio": 50,
+    "cliente": "Zara Rodríguez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "70",
+    "fecha": "2023-08-18",
+    "producto": "Memoria USB",
+    "cantidad": 10,
+    "precio": 10,
+    "cliente": "Álex Sánchez",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+ {
+    "_id": "71",
+    "fecha": "2023-08-19",
+    "producto": "Router inalámbrico",
+    "cantidad": 1,
+    "precio": 50,
+    "cliente": "Brenda González",
+    "ciudad": "Zaragoza",
+    "pais": "España"
+  },
+  {
+    "_id": "72",
+    "fecha": "2023-08-20",
+    "producto": "Repetidor de señal WiFi",
+    "cantidad": 2,
+    "precio": 20,
+    "cliente": "Carlos Pérez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "73",
+    "fecha": "2023-08-21",
+    "producto": "Cable HDMI",
+    "cantidad": 3,
+    "precio": 10,
+    "cliente": "David García",
+    "ciudad": "Sevilla",
+    "pais": "España"
+  },
+  {
+    "_id": "74",
+    "fecha": "2023-08-22",
+    "producto": "Adaptador de corriente",
+    "cantidad": 5,
+    "precio": 5,
+    "cliente": "Eduardo Gómez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+  {
+    "_id": "75",
+    "fecha": "2023-08-23",
+    "producto": "Fundas para móvil",
+    "cantidad": 10,
+    "precio": 3,
+    "cliente": "Juan Pérez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+  {
+    "_id": "76",
+    "fecha": "2023-08-24",
+    "producto": "Protectores de pantalla",
+    "cantidad": 5,
+    "precio": 2,
+    "cliente": "María López",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  {
+    "_id": "77",
+    "fecha": "2023-08-25",
+    "producto": "Cargadores de móvil",
+    "cantidad": 10,
+    "precio": 10,
+    "cliente": "Pedro Gómez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "78",
+    "fecha": "2023-08-26",
+    "producto": "Baterías externas",
+    "cantidad": 5,
+    "precio": 20,
+    "cliente": "Ana Rodríguez",
+    "ciudad": "Sevilla",
+    "pais": "España"
+  },
+  {
+    "_id": "79",
+    "fecha": "2023-08-27",
+    "producto": "Auriculares deportivos",
+    "cantidad": 10,
+    "precio": 15,
+    "cliente": "Luis Sánchez",
+    "ciudad": "Bilbao",
+    "pais": "España"
+  },
+  {
+    "_id": "80",
+    "fecha": "2023-08-28",
+    "producto": "Altavoces Bluetooth",
+    "cantidad": 5,
+    "precio": 30,
+    "cliente": "Valentina Fernández",
+    "ciudad": "La Coruña",
+    "pais": "España"
+  },
+{
+    "_id": "81",
+    "fecha": "2023-08-29",
+    "producto": "Juegos de mesa",
+    "cantidad": 10,
+    "precio": 20,
+    "cliente": "Ximena Martínez",
+    "ciudad": "Santiago de Compostela",
+    "pais": "España"
+  },
+  {
+    "_id": "82",
+    "fecha": "2023-08-30",
+    "producto": "Libros",
+    "cantidad": 5,
+    "precio": 10,
+    "cliente": "Yago Gómez",
+    "ciudad": "Vigo",
+    "pais": "España"
+  },
+  {
+    "_id": "83",
+    "fecha": "2023-08-31",
+    "producto": "Películas",
+    "cantidad": 10,
+    "precio": 5,
+    "cliente": "Zara Rodríguez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "84",
+    "fecha": "2023-09-01",
+    "producto": "Música",
+    "cantidad": 5,
+    "precio": 2,
+    "cliente": "Álex Sánchez",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  {
+    "_id": "85",
+    "fecha": "2023-09-02",
+    "producto": "Artículos de deporte",
+    "cantidad": 10,
+    "precio": 15,
+    "cliente": "Brenda González",
+    "ciudad": "Zaragoza",
+    "pais": "España"
+  },
+  {
+    "_id": "86",
+    "fecha": "2023-09-03",
+    "producto": "Ropa",
+    "cantidad": 5,
+    "precio": 10,
+    "cliente": "Carlos Pérez",
+    "ciudad": "Valencia",
+    "pais": "España"
+  },
+  {
+    "_id": "87",
+    "fecha": "2023-09-04",
+    "producto": "Calzado",
+    "cantidad": 10,
+    "precio": 20,
+    "cliente": "David García",
+    "ciudad": "Sevilla",
+    "pais": "España"
+  },
+  {
+    "_id": "88",
+    "fecha": "2023-09-05",
+    "producto": "Accesorios de moda",
+    "cantidad": 5,
+    "precio": 5,
+    "cliente": "Eduardo Gómez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+  {
+    "_id": "89",
+    "fecha": "2023-09-06",
+    "producto": "Juguetes",
+    "cantidad": 10,
+    "precio": 10,
+    "cliente": "Juan Pérez",
+    "ciudad": "Madrid",
+    "pais": "España"
+  },
+  {
+    "_id": "90",
+    "fecha": "2023-09-07",
+    "producto": "Regalos",
+    "cantidad": 5,
+    "precio": 2,
+    "cliente": "María López",
+    "ciudad": "Barcelona",
+    "pais": "España"
+  }
+]
