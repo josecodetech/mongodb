@@ -1,0 +1,7 @@
+db.productos.aggregate(
+	[
+	{
+		$group: {_id:"$marca", precio_promedio: {$avg:"$precio"}
+	}
+	]
+)

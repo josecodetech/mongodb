@@ -1,0 +1,9 @@
+{
+	"_id": ObjectId("5f2d4kdjlajdljaldjfljalf"),
+	"nombre": "Cliente A",
+	"direccion": {
+		"calle": "123 Calle principal",
+		"ciudad": "Ciudad B",
+		"codigo_postal": "12345"
+	}
+}

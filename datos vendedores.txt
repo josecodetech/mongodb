@@ -1,0 +1,252 @@
+db.vendedores.insertMany([
+    {
+        nombre: "Vendedor 1",
+        ciudad: "Ciudad 1",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 2",
+        ciudad: "Ciudad 2",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 3",
+        ciudad: "Ciudad 1",
+        comision: 8
+    },
+    {
+        nombre: "Vendedor 4",
+        ciudad: "Ciudad 3",
+        comision: 15
+    },
+    {
+        nombre: "Vendedor 5",
+        ciudad: "Ciudad 2",
+        comision: 9
+    },
+    {
+        nombre: "Vendedor 6",
+        ciudad: "Ciudad 1",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 7",
+        ciudad: "Ciudad 3",
+        comision: 14
+    },
+    {
+        nombre: "Vendedor 8",
+        ciudad: "Ciudad 2",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 9",
+        ciudad: "Ciudad 1",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 10",
+        ciudad: "Ciudad 3",
+        comision: 13
+    },
+    {
+        nombre: "Vendedor 11",
+        ciudad: "Ciudad 2",
+        comision: 9
+    },
+    {
+        nombre: "Vendedor 12",
+        ciudad: "Ciudad 1",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 13",
+        ciudad: "Ciudad 3",
+        comision: 15
+    },
+    {
+        nombre: "Vendedor 14",
+        ciudad: "Ciudad 2",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 15",
+        ciudad: "Ciudad 1",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 16",
+        ciudad: "Ciudad 3",
+        comision: 14
+    },
+    {
+        nombre: "Vendedor 17",
+        ciudad: "Ciudad 2",
+        comision: 13
+    },
+    {
+        nombre: "Vendedor 18",
+        ciudad: "Ciudad 1",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 19",
+        ciudad: "Ciudad 3",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 20",
+        ciudad: "Ciudad 2",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 21",
+        ciudad: "Ciudad 1",
+        comision: 15
+    },
+    {
+        nombre: "Vendedor 22",
+        ciudad: "Ciudad 3",
+        comision: 9
+    },
+    {
+        nombre: "Vendedor 23",
+        ciudad: "Ciudad 2",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 24",
+        ciudad: "Ciudad 1",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 25",
+        ciudad: "Ciudad 3",
+        comision: 14
+    },
+    {
+        nombre: "Vendedor 26",
+        ciudad: "Ciudad 2",
+        comision: 13
+    },
+    {
+        nombre: "Vendedor 27",
+        ciudad: "Ciudad 1",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 28",
+        ciudad: "Ciudad 3",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 29",
+        ciudad: "Ciudad 2",
+        comision: 15
+    },
+    {
+        nombre: "Vendedor 30",
+        ciudad: "Ciudad 1",
+        comision: 9
+    },
+    {
+        nombre: "Vendedor 31",
+        ciudad: "Ciudad 3",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 32",
+        ciudad: "Ciudad 2",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 33",
+        ciudad: "Ciudad 1",
+        comision: 13
+    },
+    {
+        nombre: "Vendedor 34",
+        ciudad: "Ciudad 3",
+        comision: 14
+    },
+    {
+        nombre: "Vendedor 35",
+        ciudad: "Ciudad 2",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 36",
+        ciudad: "Ciudad 1",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 37",
+        ciudad: "Ciudad 3",
+        comision: 15
+    },
+    {
+        nombre: "Vendedor 38",
+        ciudad: "Ciudad 2",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 39",
+        ciudad: "Ciudad 1",
+        comision: 13
+    },
+    {
+        nombre: "Vendedor 40",
+        ciudad: "Ciudad 3",
+        comision: 14
+    },
+    {
+        nombre: "Vendedor 41",
+        ciudad: "Ciudad 2",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 42",
+        ciudad: "Ciudad 1",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 43",
+        ciudad: "Ciudad 3",
+        comision: 9
+    },
+    {
+        nombre: "Vendedor 44",
+        ciudad: "Ciudad 2",
+        comision: 15
+    },
+    {
+        nombre: "Vendedor 45",
+        ciudad: "Ciudad 1",
+        comision: 10
+    },
+    {
+        nombre: "Vendedor 46",
+        ciudad: "Ciudad 3",
+        comision: 13
+    },
+    {
+        nombre: "Vendedor 47",
+        ciudad: "Ciudad 2",
+        comision: 14
+    },
+    {
+        nombre: "Vendedor 48",
+        ciudad: "Ciudad 1",
+        comision: 12
+    },
+    {
+        nombre: "Vendedor 49",
+        ciudad: "Ciudad 3",
+        comision: 11
+    },
+    {
+        nombre: "Vendedor 50",
+        ciudad: "Ciudad 2",
+        comision: 9
+    }
+]);

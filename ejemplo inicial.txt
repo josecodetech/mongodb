@@ -1,0 +1,7 @@
+{
+	"_id": ObjectId("34kdjak23jkdjalflaj"),
+	"nombre":"Jose Ojeda",
+	"correo":"josecodetech@gmail.com",
+	"edad":51,
+	"intereses":["programacion","contabilidad","deportes"]
+}

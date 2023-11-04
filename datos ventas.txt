@@ -1,0 +1,282 @@
+db.ventas.insertMany([
+    {
+        fecha: "2023-10-01",
+        producto: "Camiseta",
+        cantidad: 10,
+        precio_unitario: 15.99,
+        cliente: "Cliente 1"
+    },
+    {
+        fecha: "2023-10-02",
+        producto: "Pantalones",
+        cantidad: 5,
+        precio_unitario: 29.99,
+        cliente: "Cliente 2"
+    },
+    {
+        fecha: "2023-10-03",
+        producto: "Zapatos",
+        cantidad: 8,
+        precio_unitario: 49.99,
+        cliente: "Cliente 3"
+    },
+    {
+        fecha: "2023-10-04",
+        producto: "Gorra",
+        cantidad: 15,
+        precio_unitario: 9.99,
+        cliente: "Cliente 4"
+    },
+    {
+        fecha: "2023-10-05",
+        producto: "Bufanda",
+        cantidad: 7,
+        precio_unitario: 12.99,
+        cliente: "Cliente 5"
+    },
+    {
+        fecha: "2023-10-06",
+        producto: "Botas",
+        cantidad: 12,
+        precio_unitario: 59.99,
+        cliente: "Cliente 6"
+    },
+    {
+        fecha: "2023-10-07",
+        producto: "Jersey",
+        cantidad: 9,
+        precio_unitario: 24.99,
+        cliente: "Cliente 7"
+    },
+    {
+        fecha: "2023-10-08",
+        producto: "Vestido",
+        cantidad: 6,
+        precio_unitario: 39.99,
+        cliente: "Cliente 8"
+    },
+    {
+        fecha: "2023-10-09",
+        producto: "Calcetines",
+        cantidad: 20,
+        precio_unitario: 4.99,
+        cliente: "Cliente 9"
+    },
+    {
+        fecha: "2023-10-10",
+        producto: "Sombrero",
+        cantidad: 3,
+        precio_unitario: 17.99,
+        cliente: "Cliente 10"
+    },
+    {
+        fecha: "2023-10-11",
+        producto: "Chaqueta",
+        cantidad: 4,
+        precio_unitario: 49.99,
+        cliente: "Cliente 11"
+    },
+    {
+        fecha: "2023-10-12",
+        producto: "Shorts",
+        cantidad: 8,
+        precio_unitario: 14.99,
+        cliente: "Cliente 12"
+    },
+    {
+        fecha: "2023-10-13",
+        producto: "Zapatos Deportivos",
+        cantidad: 7,
+        precio_unitario: 29.99,
+        cliente: "Cliente 13"
+    },
+    {
+        fecha: "2023-10-14",
+        producto: "Blusa",
+        cantidad: 11,
+        precio_unitario: 19.99,
+        cliente: "Cliente 14"
+    },
+    {
+        fecha: "2023-10-15",
+        producto: "Mochila",
+        cantidad: 6,
+        precio_unitario: 29.99,
+        cliente: "Cliente 15"
+    },
+    {
+        fecha: "2023-10-16",
+        producto: "Bufanda",
+        cantidad: 7,
+        precio_unitario: 12.99,
+        cliente: "Cliente 16"
+    },
+    {
+        fecha: "2023-10-17",
+        producto: "Botas",
+        cantidad: 12,
+        precio_unitario: 59.99,
+        cliente: "Cliente 17"
+    },
+    {
+        fecha: "2023-10-18",
+        producto: "Jersey",
+        cantidad: 9,
+        precio_unitario: 24.99,
+        cliente: "Cliente 18"
+    },
+    {
+        fecha: "2023-10-19",
+        producto: "Vestido",
+        cantidad: 6,
+        precio_unitario: 39.99,
+        cliente: "Cliente 19"
+    },
+    {
+        fecha: "2023-10-20",
+        producto: "Calcetines",
+        cantidad: 20,
+        precio_unitario: 4.99,
+        cliente: "Cliente 20"
+    },
+    {
+        fecha: "2023-10-21",
+        producto: "Sombrero",
+        cantidad: 3,
+        precio_unitario: 17.99,
+        cliente: "Cliente 21"
+    },
+    {
+        fecha: "2023-10-22",
+        producto: "Chaqueta",
+        cantidad: 4,
+        precio_unitario: 49.99,
+        cliente: "Cliente 22"
+    },
+    {
+        fecha: "2023-10-23",
+        producto: "Shorts",
+        cantidad: 8,
+        precio_unitario: 14.99,
+        cliente: "Cliente 23"
+    },
+    {
+        fecha: "2023-10-24",
+        producto: "Zapatos Deportivos",
+        cantidad: 7,
+        precio_unitario: 29.99,
+        cliente: "Cliente 24"
+    },
+    {
+        fecha: "2023-10-25",
+        producto: "Blusa",
+        cantidad: 11,
+        precio_unitario: 19.99,
+        cliente: "Cliente 25"
+    },
+    {
+        fecha: "2023-10-26",
+        producto: "Mochila",
+        cantidad: 6,
+        precio_unitario: 29.99,
+        cliente: "Cliente 26"
+    },
+    {
+        fecha: "2023-10-27",
+        producto: "Bufanda",
+        cantidad: 7,
+        precio_unitario: 12.99,
+        cliente: "Cliente 27"
+    },
+    {
+        fecha: "2023-10-28",
+        producto: "Botas",
+        cantidad: 12,
+        precio_unitario: 59.99,
+        cliente: "Cliente 28"
+    },
+    {
+        fecha: "2023-10-29",
+        producto: "Jersey",
+        cantidad: 9,
+        precio_unitario: 24.99,
+        cliente: "Cliente 29"
+    },
+    {
+        fecha: "2023-10-30",
+        producto: "Vestido",
+        cantidad: 6,
+        precio_unitario: 39.99,
+        cliente: "Cliente 30"
+    },
+    {
+        fecha: "2023-10-31",
+        producto: "Calcetines",
+        cantidad: 20,
+        precio_unitario: 4.99,
+        cliente: "Cliente 31"
+    },
+    {
+        fecha: "2023-11-01",
+        producto: "Sombrero",
+        cantidad: 3,
+        precio_unitario: 17.99,
+        cliente: "Cliente 32"
+    },
+    {
+        fecha: "2023-11-02",
+        producto: "Chaqueta",
+        cantidad: 4,
+        precio_unitario: 49.99,
+        cliente: "Cliente 33"
+    },
+    {
+        fecha: "2023-11-03",
+        producto: "Shorts",
+        cantidad: 8,
+        precio_unitario: 14.99,
+        cliente: "Cliente 34"
+    },
+    {
+        fecha: "2023-11-04",
+        producto: "Zapatos Deportivos",
+        cantidad: 7,
+        precio_unitario: 29.99,
+        cliente: "Cliente 35"
+    },
+    {
+        fecha: "2023-11-05",
+        producto: "Blusa",
+        cantidad: 11,
+        precio_unitario: 19.99,
+        cliente: "Cliente 36"
+    },
+    {
+        fecha: "2023-11-06",
+        producto: "Mochila",
+        cantidad: 6,
+        precio_unitario: 29.99,
+        cliente: "Cliente 37"
+    },
+    {
+        fecha: "2023-11-07",
+        producto: "Bufanda",
+        cantidad: 7,
+        precio_unitario: 12.99,
+        cliente: "Cliente 38"
+    },
+    {
+        fecha: "2023-11-08",
+        producto: "Botas",
+        cantidad: 12,
+        precio_unitario: 59.99,
+        cliente: "Cliente 39"
+    },
+    {
+        fecha: "2023-11-09",
+        producto: "Jersey",
+        cantidad: 9,
+        precio_unitario: 24.99,
+        cliente: "Cliente 40"
+    },
+]);
