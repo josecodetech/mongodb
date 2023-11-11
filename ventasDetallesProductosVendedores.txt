@@ -1,0 +1,28 @@
+db.ventas.aggregate([{
+	$lookup:{
+		from:"productos",
+		localField:"producto_id",
+		foreignField:"_id",
+		as:"producto"
+}
+},
+                     {
+	$lookup:{
+		from:"venderores",
+		localField:"vendedor_id",
+		foreignField:"_id",
+		as:"vendedor"
+}
+},
+                     {$unwind:"$producto"},
+                     {$unwind:"$vendedor"},
+                     {
+		$project:{
+			_id:1,
+			cantidad:1,
+			total:1,
+			"producto.nombre":1,
+			"vendedor:nombre":1
+}
+}
+])

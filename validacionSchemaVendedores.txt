@@ -1,0 +1,22 @@
+db.createCollection("vendedores",{
+validator:{
+	$jsonSchema:{
+		bsonType:"object",
+		required:["nombre","edad","ventas"],
+		properties:{
+			nombre:{
+				bsonType:"string",
+				description:"cadena obligatoria"
+},
+			edad:{
+				bsonType:"int",
+				minimum:18
+},
+			ventas:{
+				bsonType:"int",
+				minimum:0
+}
+}
+}
+}
+})

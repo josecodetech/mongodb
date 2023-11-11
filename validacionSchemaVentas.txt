@@ -1,0 +1,26 @@
+db.createCollection("ventas",{
+	validator:{
+		$jsonSchema:{
+			bsonType:"object",
+			required:["producto_id","vendedor_id","cantidad","total"],
+			properties:{
+				producto_id:{
+					bsonType:"objectId",
+					description:"debe ser ObjectID y es obligatorio"
+},
+				vendedor_id:{
+					bsonType:"objectId",
+					description:"debe ser un ObjectID y es obligatorio"
+},
+				cantidad:{
+					bsonType:"int",
+					minimum:1
+},
+				total:{
+					bsonType:"double",
+					minimum:0
+}
+}
+}
+}
+})

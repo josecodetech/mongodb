@@ -1,0 +1,29 @@
+use miTienda
+db.createCollection("productos",{
+validator:{
+	$jsonSchema:{
+		bsonType: "object",
+		required: ["nombre","precio","stock","categoria"],
+		properties:{
+			nombre:{
+				bsonType:"string",
+				description: "debe ser una cadena y es obligatoria"
+},
+			precio:{
+				bsonType:"double",
+				description: "debe ser un numero y es obligatorio",
+				minimum:0,
+				maximum:1000
+},
+			stock:{
+				bsonType:"int",
+				minimum:0
+},
+			categoria:{
+				enum:["Electronica","Ropa","Hogar"],
+				description:"debe ser una de las categorias permitidas"
+}
+}
+}
+}
+})
