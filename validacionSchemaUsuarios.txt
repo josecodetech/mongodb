@@ -1,0 +1,19 @@
+db.createCollection("usuarios",{
+	validator:{
+		$jsonSchema:{
+			bsonType:"object",
+			required:["email",'password'],
+			properties:{
+				email:{
+					bsonType:"string",
+					description:"es obligatorio"
+},
+				password:{
+					bsonType:"string",
+					description:"es obligatorio"
+},
+
+}
+}
+}
+})
